@@ -1,13 +1,11 @@
-# frozen_string_literal: true
-
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-tsieczko"
   spec.version       = "0.1.0"
-  spec.authors       = [""]
-  spec.email         = [""]
+  spec.authors       = ["tsieczko"]
+  spec.email         = ["sieczko.tomasz@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = ""
+  spec.homepage      = "https://github.com/tsieczko/jekyll-theme-tsieczko"
   spec.license       = ""
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
