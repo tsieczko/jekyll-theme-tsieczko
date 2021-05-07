@@ -1,12 +1,11 @@
 <footer>
 	<div>Connect with me:</div>
 	<div>
-		<a id="footer-email">Email</a>
+		<a href="mailto:{{ site.author.email }}">Email</a>
 	</div>
+{% for contact in site.contacts %}
 	<div>
-		<a href="https://www.linkedin.com/in/tomasz-sieczko/">LinkedIn</a>
+		<a href="{{ contact[1] }}">{{ contact[0] }}</a>
 	</div>
-	<div>
-		<a href="https://github.com/tsieczko">GitHub</a>
-	</div>
+{% endfor %}
 </footer>
