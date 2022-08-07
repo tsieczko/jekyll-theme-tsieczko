@@ -1,5 +1,5 @@
 *.gem
-.bundle
+*.gems/
 .jekyll-cache
 .sass-cache
 _site
