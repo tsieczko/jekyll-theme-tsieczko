@@ -1,11 +1,15 @@
-<footer>
-	<div>Connect with me:</div>
-	<div>
-		<a href="mailto:{{ site.author.email }}">Email</a>
-	</div>
-{% for contact in site.contacts %}
-	<div>
-		<a href="{{ contact[1] }}">{{ contact[0] }}</a>
-	</div>
-{% endfor %}
-</footer>
+{% if site.author.email or site.contacts %}
+	<footer>
+		<div>Connect with me:</div>
+		{% if site.author.email %}
+			<div>
+				<a href="mailto:{{ site.author.email }}">Email</a>
+			</div>
+		{% endif %}
+		{% for contact in site.contacts %}
+			<div>
+				<a href="{{ contact[1] }}">{{ contact[0] }}</a>
+			</div>
+		{% endfor %}
+	</footer>
+{% endif %}
