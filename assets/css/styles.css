@@ -1,5 +1,6 @@
 @import 'header.css';
 @import 'footer.css';
+@import 'pygment.css';
 
 body {
 	background-color: whitesmoke;
