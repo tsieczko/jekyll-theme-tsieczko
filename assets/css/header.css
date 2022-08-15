@@ -5,6 +5,7 @@
 	margin-block: 0rem;
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 3rem;
+	color: black;
 }
 
 nav {
@@ -16,10 +17,6 @@ nav {
 nav a {
 	padding: 0.25rem;
 	font-size: 1rem;
-}
-
-a {
-	color: blue;
 }
 
 header {
