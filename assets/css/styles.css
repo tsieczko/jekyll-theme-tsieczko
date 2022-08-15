@@ -4,11 +4,36 @@
 
 body {
 	background-color: whitesmoke;
-	width: 60em;
-	margin: 1em auto;
+	width: 60rem;
+	margin: 1rem auto;
 }
 
 #content {
 	text-align: left;
-	padding: 2em;
+	padding: 2rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+pre {
+	overflow: auto;
+	padding: 1rem;
+	border: 0.1rem solid black;
+	tab-size: 4;
+}
+
+.highlight {
+	border-radius: 0.3rem;
+}
+
+blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    border-left: 0.3rem solid black;
+} blockquote:first-child {
+  margin-top: 0;
+} blockquote:last-child {
+  margin-bottom: 0;
 }
