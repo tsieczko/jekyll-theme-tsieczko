@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
 #title h1 {
-	margin: 0em;
+	margin: 1em;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 3em;
 }
 
 nav {
