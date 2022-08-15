@@ -26,29 +26,60 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 ```js
 // Javascript code with syntax highlighting
 var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+	dateformat.i18n = require('./lang/' + l)
+	return true;
 }
 ```
 
 ```ruby
 # Ruby code with syntax highlighting
 GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
+	s.add_dependency(gem, "= #{version}")
 end
+```
+
+```c
+/*
+* C code with syntax highlighting
+*/
+
+#include <stdio.h>
+
+int main()
+{
+	int number1, number2, sum;
+
+	printf("Enter two integers: ");
+	scanf("%d %d", &number1, &number2);
+
+	// calculating sum
+	sum = number1 + number2;
+
+	printf("%d + %d = %d", number1, number2, sum);
+	return 0;
+}
+```
+
+```python
+# Python code with syntax highlighting
+def factorial(number):
+	factorial = 1
+	for i in range(1, number + 1):
+		factorial = factorial * i
+	return factorial
 ```
 
 #### Header 4
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+* This is an unordered list following a header.
+* This is an unordered list following a header.
+* This is an unordered list following a header.
 
 ##### Header 5
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+1. This is an ordered list following a header.
+2. This is an ordered list following a header.
+3. This is an ordered list following a header.
 
 ###### Header 6
 
@@ -65,17 +96,17 @@ end
 
 ### Here is an unordered list:
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+* Item foo
+* Item bar
+* Item baz
+* Item zip
 
 ### And an ordered list:
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+1. Item one
+1. Item two
+1. Item three
+1. Item four
 
 ### And a nested list:
 
