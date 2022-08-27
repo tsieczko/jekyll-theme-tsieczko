@@ -28,8 +28,30 @@ a {
 	color: darkred;
 }
 
-ul ::marker {
-	color: darkred
+ul ::marker, ol ::marker {
+	color: darkred;
+}
+
+table {
+	border-radius: 0.3rem;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+th {
+	border: 2px solid black;
+	padding: 0.5rem;
+	background-color: lightgrey;
+}
+
+td {
+	border: 2px solid black;
+	padding: 0.5rem;
+}
+
+hr {
+	border: 0.1rem solid darkred;
+	background-color: darkred;
 }
 
 pre {

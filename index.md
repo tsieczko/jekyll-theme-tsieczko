@@ -83,7 +83,7 @@ def factorial(number):
 
 ###### Header 6
 
-| head1        | head two          | three |
+| Head1        | Head Two          | Three |
 |:-------------|:------------------|:------|
 | ok           | good swedish fish | nice  |
 | out of stock | good and plenty   | nice  |
