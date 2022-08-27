@@ -36,6 +36,10 @@ pre {
 	tab-size: 4;
 }
 
+.language-plaintext {
+	color: darkred;
+}
+
 .highlight {
 	border-radius: 0.3rem;
 	background-color: lightgrey;

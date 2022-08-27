@@ -3,7 +3,7 @@ layout: default
 title: Preview
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Text can be **bold**, _italic_, `monospaced` or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
