@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto+Slab&family=Nothing+You+Could+Do&display=swap');
+
 @import 'header.css';
 @import 'footer.css';
 @import 'pygment.css';
@@ -6,6 +8,7 @@ body {
 	background-color: whitesmoke;
 	width: 60rem;
 	margin: 1rem auto;
+	font-family: 'Roboto Slab';
 }
 
 main {
@@ -34,6 +37,10 @@ pre {
 	padding: 1rem;
 	border: 0.1rem solid black;
 	tab-size: 4;
+}
+
+code {
+	font-family: 'Jetbrains Mono';
 }
 
 .language-plaintext {
